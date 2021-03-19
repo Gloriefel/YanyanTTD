@@ -1,0 +1,20 @@
+{
+  "name": "excercises",
+  "version": "1.0.0",
+  "description": "\"mocha practices\"",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.2"
+  },
+  "scripts": {
+    "test": "nodemon --exec mocha -R min"
+  },
+  "author": "",
+  "license": "ISC"
+}
